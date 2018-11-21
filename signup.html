@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<title>Generosity Sign in</title>
+	<title>Generosity Sign up</title>
 	<style type="text/css">
 		.first{
 			margin-left: 130px;
@@ -17,10 +17,10 @@
 		h1{
 			color:ghostwhite;
 			font-family: sans-serif;
-			margin-top: 215px;
+			margin-top: 150px;
 			margin-left: 200px;
 		}
-		.signin{
+		.signup{
 			margin-left: 270px;
 		}
 		p{
@@ -28,7 +28,7 @@
 			margin-left: 175px;
 			margin-top: 10px;
 		}
-		.login{
+		.sign{
 			margin-left: 130px;
 			width: 330px;
 		}
@@ -36,14 +36,20 @@
 </head>
 <body background="pic.jpg">
 <h1>Generosity</h1>
-<p class="signin"> Sign in </p>
+<p class="signup"> Sign up </p>
+<div class="input-group mb-3">
+  <input type="text" class="form-control first" placeholder="Email or Phone number" aria-label="emailorphone" aria-describedby="basic-addon1">
+</div>
+<div class="input-group mb-3">
+  <input type="text" class="form-control first" placeholder="Full Name" aria-label="Fullname" aria-describedby="basic-addon1">
+</div>
 <div class="input-group mb-3">
   <input type="text" class="form-control first" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
 </div>
 <div class="input-group mb-3">
   <input type="password" class="form-control second" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
 </div>
-<button type="button" class="btn btn-primary login">Log in</button>
-<p>Don't have an account? <a href="signup.html"> Sign up</a></p>
+<button type="button" class="btn btn-primary sign">Sign up</button>
+<p>already have an account? <a href="index.html"> Sign in</a></p>
 </body>
 </html>
